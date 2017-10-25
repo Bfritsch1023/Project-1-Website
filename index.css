@@ -1,0 +1,169 @@
+
+	img {
+	width: 100%;
+}
+body {
+    background-color: #FFE4E1;
+    margin: 0 8px;
+}
+
+
+.yogaTitle{
+
+	color: white;
+	font-family: cursive;
+	text-align: left;
+	font-size:80pt;
+}
+
+a{
+	    text-decoration: none;
+
+}
+
+.yogaImage {
+	background-image: url("https://s-i.huffpost.com/gen/1815471/images/n-YOGA-628x314.jpg")
+	height:600px;
+	width:700px; 
+}
+
+
+h2 {
+	text-align: center;
+	color:black;
+	font-family: cursive;
+	font-size:30pt;
+}
+
+h1.yogaTitle {
+    display: inline;
+    line-height: 90px;
+}
+
+
+p{
+	color:black;
+	text-align: left;
+}
+
+
+/*.inlignTitles {
+	color:white;
+	text-align:center;
+}*/
+
+footer {
+	background-color: grey;
+	color: white;
+	height: 50px;
+	text-align: center;
+}
+
+#copyrights {
+	line-height: 50px;
+
+}
+
+
+.About_Brie {
+	color:black;
+	text-align: left;
+	font-family: Lucinda;
+	font-size: 20pt;
+	margin: 0;
+}
+
+div.topBar a {
+  display: inline-block;
+  text-align: right;
+/*  width: 100px;*/
+  height: 90px;
+  margin-right: .5em;
+
+}
+
+.nav {
+	float: right;
+}
+
+.nav span {
+	line-height: 90px;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+.headerSection {
+	display;flex;
+   	background-image: url(https://s-i.huffpost.com/gen/1815471/images/n-YOGA-628x314.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 300px;
+    padding:128px 16px
+   
+}
+
+button {
+    /* align-items: flex-start; */
+    text-align: center;
+    display: block;
+    margin: auto;
+    /* cursor: default; */
+    color: white;
+    background-color: pink;
+    font-family: cursive;
+    font-size:30px;
+    /* box-sizing: border-box; */
+    padding: 10px;
+    border-width: 10px;
+    border-style: dotted;
+    /* border-color: buttonface; */
+    /* border-image: initial; */
+}
+
+.flex-container {
+	list-style: none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	justify-content: center;
+
+	padding: 0;
+	margin: 0 auto;
+}
+	.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+
+img
+
+}
+.flex-item {
+	text-align: left;
+	width: 25%;
+}
+.flex-item2 {
+	text-align: left;
+	width: 50%;
+}
+
+
+
