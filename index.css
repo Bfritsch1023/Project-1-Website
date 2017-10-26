@@ -32,7 +32,7 @@ h2 {
 	text-align: center;
 	color:black;
 	font-family: cursive;
-	font-size:30pt;
+	font-size:40pt;
 }
 
 h1.yogaTitle {
@@ -40,12 +40,50 @@ h1.yogaTitle {
     line-height: 90px;
 }
 
+.Reminders {
+	text-align: center;
+	color:grey;
+	font-family: cursive;
+	font-size:20pt;
 
-p{
-	color:black;
-	text-align: left;
 }
 
+
+
+.Quotes {
+	text-align: center;
+	color:black;
+	font-family: fantasy;
+	font-size:15pt;
+
+}
+
+.stylesheet {
+	font-family: 'Raleway', sans-serif;
+
+}
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+
+}
 
 /*.inlignTitles {
 	color:white;
@@ -53,9 +91,10 @@ p{
 }*/
 
 footer {
-	background-color: grey;
+	background-color: black;
 	color: white;
-	height: 50px;
+	height: 80px;
+	font-size: 14pt;
 	text-align: center;
 }
 
@@ -66,10 +105,10 @@ footer {
 
 
 .About_Brie {
-	color:black;
+	color:white;
 	text-align: left;
 	font-family: Lucinda;
-	font-size: 20pt;
+	font-size: 40pt;
 	margin: 0;
 }
 
