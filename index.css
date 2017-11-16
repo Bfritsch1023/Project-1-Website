@@ -1,6 +1,9 @@
 
-	img {
-	width: 100%;
+img {
+	
+	width: 80%;
+    align-items: center;
+    margin-left: 10%;
 }
 body {
     background-color: #FFE4E1;
@@ -63,7 +66,6 @@ h1.yogaTitle {
 
 }
 
-/* Flaired edges, by Tomas Theunissen */
 
 hr {
     overflow: visible; /* For IE */
@@ -85,10 +87,6 @@ hr:before { /* Not really supposed to work, but does */
 
 }
 
-/*.inlignTitles {
-	color:white;
-	text-align:center;
-}*/
 
 footer {
 	background-color: black;
@@ -115,7 +113,6 @@ footer {
 div.topBar a {
   display: inline-block;
   text-align: right;
-/*  width: 100px;*/
   height: 90px;
   margin-right: .5em;
 
@@ -147,21 +144,17 @@ iframe {
 }
 
 button {
-    /* align-items: flex-start; */
     text-align: center;
     display: block;
     margin: auto;
-    /* cursor: default; */
     color: white;
     background-color: pink;
     font-family: cursive;
     font-size:30px;
-    /* box-sizing: border-box; */
     padding: 10px;
     border-width: 10px;
     border-style: dotted;
-    /* border-color: buttonface; */
-    /* border-image: initial; */
+  
 }
 
 .flex-container {
